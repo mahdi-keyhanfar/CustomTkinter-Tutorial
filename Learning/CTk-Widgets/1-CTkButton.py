@@ -11,7 +11,8 @@ def btn_click():
 button = ctk.CTkButton(root,
                         text = "Button1", # ==> Button Name
                         command = btn_click) # ==> Connect Def To Button
-button.pack() # ==> show button
+
+button.pack(pady = 20) #==> pady=top and bottom ---- padx=left and right
 
 root.mainloop()
 
