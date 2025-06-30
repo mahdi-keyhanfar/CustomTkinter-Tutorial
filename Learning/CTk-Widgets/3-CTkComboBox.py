@@ -4,8 +4,8 @@ root = ctk.CTk()
 root.title("mahdi-keyhanfar")
 root.geometry("400x300")
 
-def combobox_callback(choice):
-    print("combobox dropdown clicked:", choice)
+def combobox_callback(choice): # ==> For Save Selected Option Of CombiBox
+    print("combobox dropdown clicked:", choice) # ==> For Print Selected Option Of ComboBox
 
 #!  CTkComboBox
 combobox = ctk.CTkComboBox(root,
