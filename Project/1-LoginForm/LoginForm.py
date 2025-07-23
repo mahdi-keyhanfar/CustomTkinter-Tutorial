@@ -11,8 +11,6 @@ title_lable = ctk.CTkLabel(root,
                            text_color="#fff")
 title_lable.pack(pady=20)
 
-
-
 user_lable = ctk.CTkLabel(root,
                            text="Enter Your Username: ",
                            font=("Vazir Thin",15),
@@ -31,6 +29,7 @@ pasword_lable = ctk.CTkLabel(root,
                            font=("Vazir Thin",15),
                            text_color="#fff",)
 pasword_lable.pack(pady=5)
+
 pasword_entry= ctk.CTkEntry (root,
                            placeholder_text="Password:",
                            fg_color="#676f9d",
@@ -39,14 +38,11 @@ pasword_entry= ctk.CTkEntry (root,
                            width=300)
 pasword_entry.pack(pady = 5)
 
-
 botton = ctk.CTkButton (root,
                         text="Login",
                         text_color="#000000",
                         fg_color="#f9b17a",
                         hover_color="#ffcda7")
 botton.pack(pady=20)
-
-
 
 root.mainloop()
