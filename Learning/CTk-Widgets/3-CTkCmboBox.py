@@ -19,7 +19,3 @@ combobox.pack(pady=20) #==> pady=top and bottom ---- padx=left and right
 root.mainloop()
 
 # For Learn More Arguments Of Button Read README.md in Repositories Main Page
-
-
-
-
