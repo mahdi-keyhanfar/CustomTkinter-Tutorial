@@ -7,10 +7,9 @@ root.geometry("400x300")
 def combobox_callback(choice):
     print("combobox dropdown clicked:", choice)
 
-#!  CTkComboBox
 combobox = ctk.CTkComboBox(root,
-                            values=["option 1", "option 2"],
-                            command=combobox_callback)
+                          values=["option 1", "option 2"],
+                          command=combobox_callback)
 
 combobox.set("option 2")
 
