@@ -10,11 +10,11 @@ def checkbox_event():
 #!  CTkCheckBox
 checkbox_var = ctk.StringVar(value = "on") # ==> Save On Value In String Variable
 checkbox = ctk.CTkCheckBox(root,
-                            text = "this is check box", # ==> Title Of CheckBox
-                            command = checkbox_event, # ==> Connect Def To CheckBox
-                            variable = checkbox_var, # ==> The Value Of CheckBox When App Run
-                            onvalue = "on", # ==> The Return Value Of CheckBox When CheckBox Is On
-                            offvalue = "off") # ==> The Return Value Of CheckBox When CheckBox Is Off
+                          text = "this is check box", # ==> Title Of CheckBox
+                          command = checkbox_event, # ==> Connect Def To CheckBox
+                          variable = checkbox_var, # ==> The Value Of CheckBox When App Run
+                          onvalue = "on", # ==> The Return Value Of CheckBox When CheckBox Is On
+                          offvalue = "off") # ==> The Return Value Of CheckBox When CheckBox Is Off
 
 checkbox.pack(pady = 20) #==> pady=top and bottom ---- padx=left and right
 
