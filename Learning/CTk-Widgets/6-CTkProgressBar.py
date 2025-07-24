@@ -5,7 +5,7 @@ root.title("mahdi-keyhanfar")
 root.geometry("400x300")
 
 progressbar = ctk.CTkProgressBar(root,
-                                 orientation="horizontal") #==> For horizontal or vertical
+                                orientation="horizontal") #==> For horizontal or vertical
 progressbar.pack(pady = 20) #==> pady=top and bottom ---- padx=left and right
 
 root.mainloop()
