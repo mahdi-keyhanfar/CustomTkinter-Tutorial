@@ -7,7 +7,6 @@ root.geometry("400x300")
 def checkbox_event():
     print("CheckBox Toggled, Current Value:", checkbox_var.get())
 
-#!  CTkCheckBox
 checkbox_var = ctk.StringVar(value = "on") # ==> Save On Value In String Variable
 checkbox = ctk.CTkCheckBox(root,
                           text = "this is check box", # ==> Title Of CheckBox
